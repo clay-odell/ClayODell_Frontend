@@ -86,7 +86,7 @@ const Experience = () => {
           <CV role={capitalizedRole} />
         </>
       )}
-      {resumeOrCV === 'resume' &&  role !== ""(
+      {resumeOrCV === 'resume' &&  role !== "" && (
         <>
         <Resume role={capitalizedRole}/>
         </>

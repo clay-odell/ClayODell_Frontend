@@ -1,4 +1,9 @@
-const Resume = () => {
-  return <h3>Coming very soon. Thank you for visiting clayodell.com.</h3>;
+const Resume = ({ capitalizedRole }) => {
+  return (
+    <>
+    <h1>{capitalizedRole}</h1>
+    </>
+  )
+  
 };
 export default Resume;

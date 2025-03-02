@@ -1,20 +1,47 @@
 p.centeredParagraphs {
     text-align: center;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 15em;
     margin-right: 25px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 header h1 {
-    align-self: center;
+    margin: 0;
     text-align: center;
     text-shadow: 3px 3px 2.5px hsla(80, 1%, 46%, 0.9);
 }
 
 header div.contact {
     align-self: flex-end;
+    margin-left: auto;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        margin-right: 0;
+        padding: 10px;
+        align-items: center; /* Centering all elements */
+        justify-content: center; /* Centering all elements */
+    }
+
+    header h1,
+    header div.contact {
+        text-align: center;
+        margin: 10px 0; /* Adding some margin for better spacing */
+    }
+
+    header div.contact {
+        align-self: center;
+        margin-left: 0; /* Resetting margin */
+    }
 }
