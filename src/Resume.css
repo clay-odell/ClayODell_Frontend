@@ -1,0 +1,20 @@
+p.centeredParagraphs {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 15em;
+    margin-right: 25px;
+}
+
+header h1 {
+    align-self: center;
+    text-align: center;
+    text-shadow: 3px 3px 2.5px hsla(80, 1%, 46%, 0.9);
+}
+
+header div.contact {
+    align-self: flex-end;
+}

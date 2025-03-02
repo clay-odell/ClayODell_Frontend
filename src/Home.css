@@ -1,0 +1,13 @@
+img {
+    max-width: 300px;
+}
+
+#home-h2 {
+    background-color: #242424;
+}
+#home-logo {
+    max-height: 250px;
+    border-color: #ddd;
+    border-radius: 50%;
+    border-style: solid;
+}

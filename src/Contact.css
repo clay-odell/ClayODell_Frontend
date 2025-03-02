@@ -1,0 +1,8 @@
+input {
+    padding-right: 50px;
+}
+
+textarea {
+    min-width: 450px;
+    min-height: 75px;
+}
