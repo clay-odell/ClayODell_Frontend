@@ -1,7 +1,7 @@
 const Resume = ({ capitalizedRole }) => {
   return (
     <>
-    <h1>{capitalizedRole}</h1>
+    <h2>Projects</h2>
     </>
   )
   
